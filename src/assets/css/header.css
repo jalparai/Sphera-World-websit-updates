@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=Abel&family=Cabin&family=Montserrat:ital,wght@0,100;1,100&family=Playfair+Display&family=Poppins:wght@300;400&display=swap");
+
+.header {
+  background: rgba(48, 48, 48, 0.1);
+  backdrop-filter: blur(27.5px);
+}
+
+.me-auto.navbar-nav {
+  position: relative;
+  left: 30%;
+}
+
+@media screen and (max-width: 1399px) {
+  .me-auto.navbar-nav {
+    left: 20%;
+  }
+}
+
+@media screen and (max-width: 1199px) {
+  .me-auto.navbar-nav {
+    left: 10%;
+  }
+}
+
+.nav-link {
+  color: #fff;
+  margin-left: 10px;
+  font-family: "Abel";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 1199px) {
+  .nav-link {
+    margin-left: 0px !important;
+  }
+
+  .me-auto.navbar-nav {
+    text-align: left;
+  }
+}
+
+.open_app {
+  border-radius: 5px;
+  border: 1px solid #ff7f2a;
+  background: #3e3d3d;
+  box-shadow: 0px 0px 122px -5px rgba(255, 127, 42, 0.5);
+  padding: 10px 30px !important;
+  width: fit-content;
+}
+
+.navbar-toggler {
+  background-color: white !important;
+}

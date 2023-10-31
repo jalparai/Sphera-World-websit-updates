@@ -1,0 +1,23 @@
+.Profileteam {
+  background: #0f0f0f;
+}
+.Profileteam h1 {
+  font-size: 79px;
+  font-style: normal;
+  color: white;
+  font-weight: 300;
+  position: relative;
+  float: left;
+}
+.Profileteam h1:after {
+  content: "";
+  position: absolute;
+  width: 330px;
+  height: 5px;
+  background-color: #ff7f2a;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  box-shadow: 0 5px 70px #ff7f2a, 0 6px 6px #00000000;
+}

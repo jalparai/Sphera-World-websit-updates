@@ -1,0 +1,22 @@
+/* NewPage */
+.new_section{
+    background-color: #0F0F0F;
+    height: 100vh;
+    padding: 15px;
+}
+    
+.new_section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.line_img{
+    width: 100%;
+    margin-left:-20px ;
+}
+.relative_p{
+    position: relative;
+}
+.new_sectio{
+    background-color: #0F0F0F !important;
+}
